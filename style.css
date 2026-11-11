@@ -35,3 +35,65 @@ html {
     background: #00a8cc;
     border-radius: 4px;
 }
+
+/* Personal game development section */
+.game-projects-section {
+    background: linear-gradient(160deg, #f0f9fc 0%, #ffffff 55%, #eaf3f7 100%);
+    scroll-margin-top: 72px;
+}
+.projects-intro {
+    max-width: 760px;
+}
+.projects-intro h2 {
+    color: #133c4a;
+}
+.projects-intro p {
+    color: #435b67;
+}
+.projects-eyebrow {
+    color: #087f9c;
+    font-size: .8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+}
+.game-project-card {
+    border: 1px solid rgba(15, 80, 102, .12);
+    border-radius: 1rem;
+    background: #fff;
+}
+.game-project-card:hover {
+    border-color: #7acfe0;
+}
+.game-preview {
+    aspect-ratio: 16 / 10;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background: #102730;
+}
+.game-project-card h3 {
+    color: #173a50;
+}
+.project-pill {
+    background: #e4f7fa;
+    color: #136477;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: .55rem .75rem;
+}
+.project-link {
+    border-radius: .6rem;
+    font-weight: 600;
+}
+.projects-footnote {
+    color: #547683;
+    font-size: .92rem;
+}
+@media (max-width: 767.98px) {
+    .game-preview { aspect-ratio: 16 / 10; }
+    .projects-intro { padding: 0 .25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .game-project-card { transition: none; }
+}
