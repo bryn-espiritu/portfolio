@@ -9,7 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
+    <!-- Site favicon: Font Awesome code icon in the portfolio's cyan/blue palette -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta name="theme-color" content="#0f2027">
+        <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="70">
@@ -30,6 +33,7 @@
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fa-solid fa-gamepad me-1" aria-hidden="true"></i>Projects</a></li>
                 </ul>
             </div>
         </div>
@@ -423,6 +427,63 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Personal Game Development Projects -->
+    <section id="projects" class="py-5 game-projects-section" aria-labelledby="projects-heading">
+        <div class="container py-3">
+            <div class="text-center mx-auto projects-intro mb-5">
+                <span class="projects-eyebrow"><i class="fa-solid fa-gamepad me-2" aria-hidden="true"></i>Beyond my day job</span>
+                <h2 id="projects-heading" class="fw-bold mt-3 mb-3">Side Projects &amp; Game Development Dreams</h2>
+                <p class="lead mb-3">I've recently started exploring a new hobby: making games with the help of AI.</p>
+                <p class="mb-0">I'm not a professional game developer. I'm still learning how games are built, trying out ideas, and discovering the tools behind them. Becoming a game developer—or simply creating a game of my own—has always been a dream of mine. These personal projects are small steps toward that goal.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <article class="card game-project-card h-100 overflow-hidden shadow-sm">
+                        <img src="./assets/verdant-depths.webp"
+                             class="card-img-top game-preview"
+                             alt="Screenshot of Verdant Depths: a dark pixel-art title screen with green lettering and an Enter the Homestead button"
+                             width="450" height="306" loading="lazy" decoding="async">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge rounded-pill project-pill"><i class="fa-solid fa-seedling me-1" aria-hidden="true"></i>Retro Pixel Art</span>
+                                <span class="badge rounded-pill project-pill"><i class="fa-solid fa-robot me-1" aria-hidden="true"></i>AI-Assisted</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Verdant Depths: Dungeon &amp; Harvest</h3>
+                            <p class="text-muted flex-grow-1">A retro-style game concept combining farming and dungeon exploration. Grow magical crops, prepare for adventures, and explore a fantasy world inspired by classic pixel-art games.</p>
+                            <a class="btn btn-primary project-link align-self-start" href="https://github.com/bryn-espiritu/Retro-Game-Project" target="_blank" rel="noopener noreferrer" aria-label="Explore Verdant Depths repository on GitHub">
+                                <i class="fa-brands fa-github me-2" aria-hidden="true"></i>Explore on GitHub
+                                <i class="fa-solid fa-arrow-up-right-from-square ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-6">
+                    <article class="card game-project-card h-100 overflow-hidden shadow-sm">
+                        <img src="./assets/naga-farm.webp"
+                             class="card-img-top game-preview"
+                             alt="Screenshot of Naga Farm: a sunny countryside with a farmhouse, mountains, cherry blossom trees, and a Start Farming button"
+                             width="280" height="196" loading="lazy" decoding="async">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge rounded-pill project-pill"><i class="fa-solid fa-wheat-awn me-1" aria-hidden="true"></i>Casual Farming</span>
+                                <span class="badge rounded-pill project-pill"><i class="fa-solid fa-mobile-screen-button me-1" aria-hidden="true"></i>Mobile-Focused</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Naga Farm: Bicolandia Homestead</h3>
+                            <p class="text-muted flex-grow-1">A relaxing farming simulator inspired by the countryside of Naga and Bicol. Tend crops and livestock, cook recipes, and build a cozy homestead in a mobile-focused game experiment.</p>
+                            <a class="btn btn-primary project-link align-self-start" href="https://github.com/bryn-espiritu/Mobile-Casual-Farming-Simulator-Game-APK-" target="_blank" rel="noopener noreferrer" aria-label="Explore Naga Farm repository on GitHub">
+                                <i class="fa-brands fa-github me-2" aria-hidden="true"></i>Explore on GitHub
+                                <i class="fa-solid fa-arrow-up-right-from-square ms-2" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <p class="text-center projects-footnote mt-4 mb-0"><i class="fa-solid fa-heart me-2" aria-hidden="true"></i>Built out of curiosity, creativity, and a willingness to keep learning.</p>
         </div>
     </section>
 
